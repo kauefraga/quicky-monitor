@@ -23,5 +23,6 @@ fn main() {
   println!("Num CPUs: {}", get_cpu_count(&sys));
 
   println!("=> system:{}", style::Reset);
+
   watch_ram(&mut sys);
 }
